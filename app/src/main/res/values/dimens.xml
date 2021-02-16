@@ -1,3 +1,15 @@
 <resources>
     <dimen name="fab_margin">16dp</dimen>
+    <dimen name="recyclerview_start_end_margins">5dp</dimen>
+    <dimen name="title_list_item_text_size">21sp</dimen>
+    <dimen name="default_view_margin">16dp</dimen>
+    <dimen name="date_list_item_text_size">11sp</dimen>
+    <dimen name="view_between_spacing">7dp</dimen>
+    <dimen name="scrollview_bottom_margin">7dp</dimen>
+    <dimen name="toolbar_title_offset_height">65dp</dimen>
+    <dimen name="toolbar_height">55dp</dimen>
+    <dimen name="default_view_margin_negative">-16dp</dimen>
+    <dimen name="toolbar_title_margin">32dp</dimen>
+    <dimen name="page_title_size">20sp</dimen>
+    <dimen name="toolbar_item_margin">24dp</dimen>
 </resources>

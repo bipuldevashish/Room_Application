@@ -6,6 +6,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import com.bipuldevashish.room_application.R
+import kotlin.properties.Delegates
 
 /**
  * A simple [Fragment] subclass as the default destination in the navigation.
@@ -22,7 +23,6 @@ class FirstFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-
 
     }
 }
