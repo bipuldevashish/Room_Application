@@ -10,7 +10,7 @@ import com.bipuldevashish.room_application.R
 /**
  * A simple [Fragment] subclass as the second destination in the navigation.
  */
-class SecondFragment : Fragment() {
+class DetailedFragment : Fragment() {
 
 
     override fun onCreateView(
