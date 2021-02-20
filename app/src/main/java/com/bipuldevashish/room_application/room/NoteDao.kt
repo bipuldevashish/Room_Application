@@ -16,7 +16,7 @@ interface NoteDao {
     @Query("DELETE FROM note_table")
     suspend fun deleteAll()
 
-    @Query("SELECT * FROM note_table ORDER BY timeStamp Desc")
+    @Query("SELECT * FROM note_table ORDER BY date")
     fun getAllNotes(): LiveData<List<NoteItem>>
 
 }

@@ -6,6 +6,7 @@
     android:orientation="horizontal"
     android:weightSum="100"
     android:gravity="center_vertical"
+    android:layout_marginTop="@dimen/recyclerview_start_end_margins"
     android:layout_marginEnd="@dimen/recyclerview_start_end_margins"
     android:layout_marginStart="@dimen/recyclerview_start_end_margins"
     android:background="@color/white">
@@ -34,8 +35,6 @@
         android:layout_marginStart="@dimen/default_view_margin"
         android:maxLines="1"
         android:ellipsize="end"/>
-
-
 
     <TextView
         android:layout_width="0dp"

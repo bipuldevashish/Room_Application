@@ -1,4 +1,4 @@
-package com.bipuldevashish.room_application.ui.firstFragment
+package com.bipuldevashish.room_application.ui.viewmodel
 
 import android.app.Application
 import androidx.lifecycle.AndroidViewModel
@@ -10,9 +10,9 @@ import com.bipuldevashish.room_application.room.NoteItem
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 
-class FirstViewModel(application: Application) : AndroidViewModel(application) {
+class NoteViewModel(application: Application) : AndroidViewModel(application) {
 
-    private val readAllData: LiveData<List<NoteItem>>
+    val readAllData: LiveData<List<NoteItem>>
     private val repository: Repository
 
     init {

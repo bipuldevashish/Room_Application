@@ -3,23 +3,23 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/nav_graph"
-    app:startDestination="@id/FirstFragment">
-
+    app:startDestination="@id/listNoteFragment">
     <fragment
-        android:id="@+id/FirstFragment"
-        android:name="com.bipuldevashish.room_application.ui.firstFragment.FirstFragment"
-        android:label="@string/first_fragment_label"
-        tools:layout="@layout/fragment_first">
+        android:id="@+id/detailedFragment"
+        android:name="com.bipuldevashish.room_application.ui.detail.DetailedFragment"
+        android:label="Note Details"
+        tools:layout="@layout/fragment_note_detail" >
         <action
-            android:id="@+id/action_FirstFragment_to_detailedFragment"
-            app:destination="@id/DetailedFragment" />
+            android:id="@+id/action_detailedFragment_to_listNoteFragment"
+            app:destination="@id/listNoteFragment" />
     </fragment>
     <fragment
-        android:id="@+id/DetailedFragment"
-        android:name="com.bipuldevashish.room_application.ui.DetailedFragment"
-        android:label="DetailedFragment" >
+        android:id="@+id/listNoteFragment"
+        android:name="com.bipuldevashish.room_application.ui.list.ListNoteFragment"
+        android:label="Note List"
+        tools:layout="@layout/fragment_list_note" >
         <action
-            android:id="@+id/action_detailedFragment_to_FirstFragment"
-            app:destination="@id/FirstFragment" />
+            android:id="@+id/action_listNoteFragment_to_detailedFragment"
+            app:destination="@id/detailedFragment" />
     </fragment>
 </navigation>
